@@ -1,0 +1,20 @@
+.anyClass {
+	height: 232px;
+	overflow-y: scroll;
+}
+
+.menu-height {
+	&__h-385 {
+		height: 385px;
+	}
+
+}
+@media (max-width: 1199px) {
+	.menu-reponsive__w-190 {
+		width: 190px;
+	}
+
+	.menu-reponsive__h-450 {
+		height: 450px;
+	}
+}

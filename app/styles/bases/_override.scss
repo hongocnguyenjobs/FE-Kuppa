@@ -1,0 +1,40 @@
+.form-control{
+    height: 44px;
+}
+
+.form-control {
+    padding-left: 20px;
+    font-size: 16px;
+    color: #495057 !important;
+    &::placeholder {
+        color: #A2A2A2 !important;
+    }
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border-color: #4ED08D  !important;
+    }
+}
+
+.m-selection {
+    &__w-full{
+        width: 100%;
+        background-position: 97% center !important;
+    }
+    &__w104 {
+        width: 104px;
+        background-position: 85px center !important;
+    }
+    &__w147 {
+        width: 147px;
+        background-position: 120px center !important;
+    }
+}
+
+.ui.dropdown {
+    .menu{
+        width: 100%;
+        overflow:auto;
+        max-height:200px;
+    }
+}

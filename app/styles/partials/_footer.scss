@@ -1,0 +1,66 @@
+.footer {
+    background: #ebebeb;
+    &__top{
+        padding: 47px 0;
+        h4 {
+            font-size: 20px;
+            color: #232323;
+            margin: 0;
+        }
+        ul {
+            margin: 23px 0 0 0;
+            padding: 0;
+            list-style: none;
+            font-size: 16px;
+
+            line-height: 1.8;
+            li {
+                a {
+                    color: #232323;
+                    i {
+                        margin: 0 10px 0 0;
+                        font-size: 18px;
+                    }
+                    &:hover {
+                        color: #4ed08d;
+                        font-weight: 600;
+                        i {
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__info {
+        ul {
+            column-count: 2;
+        }
+    }
+    &__subscribe {
+        form {
+            font-size: 16px;
+            color: #ffffff;
+            input {
+                border-radius: 2px;
+                margin: 17px 0 0 0;
+                padding: 9px 13px;
+                border: none;
+                box-shadow: none;
+                background: #9c9c9c;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+    &__bottom {
+        background: #bdbdbd;
+        h5 {
+            font-size: 16px;
+            text-align: center;
+            margin: 0;
+            padding: 20px 0;
+        }
+    }
+}

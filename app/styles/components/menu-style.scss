@@ -1,0 +1,39 @@
+.menu {
+	&__s-1 {
+		font-size: 20px;
+		font-weight: 400;
+		color: black;
+		&--active {
+			font-size: 20px !important;
+			font-weight: 400 !important;
+			color: #4ed08d !important;
+		}
+	}
+	&__s-1:hover{
+		font-size: 20px;
+		font-weight: 400;
+		color: #4ed08d;
+	}
+
+	/******Host Dash board - Accepted reservations*******/
+	&__s-2 {
+		font-size: 16px;
+		font-weight: 400;
+		color: black;
+		&--active {
+			font-size: 16px !important;
+			font-weight: 400 !important;
+			color: #4ed08d !important;
+
+		}
+	}
+	&__s-2:hover{
+		font-size: 16px;
+		font-weight: 400;
+		color: #4ed08d;
+	}
+
+	&__w-150 {
+		width: 150px;
+	}
+}

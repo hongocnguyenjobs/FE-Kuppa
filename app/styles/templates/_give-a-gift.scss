@@ -1,0 +1,49 @@
+.give-a-gift{
+    &__fourpart{
+        &-effect{
+            position: relative;
+            height: 200px;
+            margin-bottom: 30px;
+        }
+        &-effect:hover{
+            background: rgba(0, 0, 0, 0.6);
+        }
+        &-content{
+            background: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            border-top: 245px;
+            padding: 10px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .give-a-gift{
+        &__fourpart{
+            &-effect{
+                height: 180px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .give-a-gift{
+        &__fourpart{
+            &-effect{
+                height: 200px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .give-a-gift{
+        &__fourpart{
+            &-effect{
+                height: 260px;
+            }
+        }
+    }
+}

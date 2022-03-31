@@ -1,0 +1,55 @@
+@include('../partials//head.html')
+<div>
+    @include('../partials/header.html')
+    <main>
+        <!--Begin Banner-->
+        <div style="background:url(images/banner-home.png) center center no-repeat fixed; background-size: cover;">
+            <div class="banner container d-flex justify-content-center align-items-center">
+                <form class="banner__form">
+                    <input class="banner__input" type="text" name="banner-search" placeholder="Where do you wanna have meal?">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="banner__icon" id="Capa_1" style="" viewBox="0 0 250.313 250.313" x="0px" y="0px" width="30px" height="30px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1"><g><g id="Search">
+                            <path class="active-path" style="clip-rule: evenodd; fill-rule: evenodd;" fill="#4ed08d" d="M 244.186 214.604 l -54.379 -54.378 c -0.289 -0.289 -0.628 -0.491 -0.93 -0.76 c 10.7 -16.231 16.945 -35.66 16.945 -56.554 C 205.822 46.075 159.747 0 
+                            102.911 0 S 0 46.075 0 102.911 c 0 56.835 46.074 102.911 102.91 102.911 c 20.895 0 40.323 -6.245 56.554 -16.945 c 0.269 0.301 0.47 0.64 0.759 0.929 l 54.38 54.38 c 8.169 8.168 21.413 8.168 29.583 0 C 252.354 236.017 252.354 222.773 244.186 
+                            214.604 Z M 102.911 170.146 c -37.134 0 -67.236 -30.102 -67.236 -67.235 c 0 -37.134 30.103 -67.236 67.236 -67.236 c 37.132 0 67.235 30.103 67.235 67.236 C 170.146 140.044 140.043 170.146 102.911 170.146 Z" data-old_color="fill-rule: evenodd
+                                clip-rule: evenodd;#4ED08D" data-original="#000000" /></svg>
+                </form>
+            </div>
+        </div>
+        <!--End Banner-->
+
+        <!-- Begin Testmonial -->
+        <section class="testmonial">
+            <div id="carouselCarDetails" class="carousel slide container" data-ride="carousel">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <p class="mt-4 mb-5"><span class="hl-item__title4 pb-3 px-md-5 px-3 hl-item__bb">Suman Adhiakry from April 11.2017</span></p>
+                        <p class="hl-item__text4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation labo ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit
+                        </p>
+                        <p>
+                            <a class="hl-item__link2 mr-2" href="">simpleweb12, hosted by preemptlessidea.com</a>
+                            <button class="m-btn m-btn-green mt-3 mt-md-0">BOOK NOW</button>
+                        </p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev d-block-sm" href="#carouselCarDetails" data-slide="prev">
+                    <img class="" src="images/ic-left.svg" alt="">
+                </a>
+                <a class="carousel-control-next d-block-sm" href="#carouselCarDetails" data-slide="next">
+                    <img class=""  src="images/ic-right.svg" alt="">
+                </a>
+            </div>
+        </section>
+         <!--End Testmonial-->
+    </main>
+    @include('../partials/footer.html')
+</div>
+<!-- // -->
+@include('../components/modal-login.html')
+<!-- // -->
+@include('../components/modal-register.html')
+<!-- // -->
+@include('../partials/foot.html')
+

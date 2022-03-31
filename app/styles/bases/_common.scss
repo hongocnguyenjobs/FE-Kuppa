@@ -1,0 +1,56 @@
+.m-btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 19px;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.m-btn1 {
+    @extend .m-btn;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.m-btn-green {
+    border: none;
+    color: #FFFFFF;
+    background: #4ED08D;
+    &:hover {
+        color: #FFFFFF;
+        background:#1BBA68 ;
+    }
+}
+
+.m-btn-white {
+    border: 1px solid rgba(#E2E2E2, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+    background: transparent;
+    &:hover {
+        color: #FFFFFF;
+        border-color: #fff;
+    }
+}
+
+.px-8per {
+    padding-left: 8%; 
+    padding-right: 8%
+}
+
+.mx-8per {
+    margin-left: 8%; 
+    margin-right: 8%
+}
+
+.m-width {
+    &__w-315 {
+        width: 315px;
+    }
+    &__w-280 {
+        width: 280px;
+    }
+    &__w-130 {
+        width: 130px;
+    }
+}

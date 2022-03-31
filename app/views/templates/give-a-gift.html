@@ -1,0 +1,160 @@
+@include('../partials//head.html')
+<div>
+    @include('../partials/header.html')
+    <main class="give-a-gift">
+        <!--Begin banner-->
+        <section class="give-a-gift__banner">
+            <div style="background:url(images/banner-give-a-gift.png) center center no-repeat fixed; background-size: cover;">
+                <div class="hl-item__bg-effect250">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                <p class="hl-item__title1 mt-5 my-4">Give the gift of experience</p>
+                                <button class="m-btn1 m-btn-green mt-0">HOW IT WORKS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End banner-->
+
+        <!--Begin body-->
+        <section class="give-a-gift__body">
+            <div class="container">
+                <p class="hl-item__title2 text-center mt-5">Send a gift by filling out the form below</p>
+                <p class="hl-item__text3">Who do you want to send the gift to?</p>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <input class="form-control" type="text" placeholder="Name...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input class="form-control" type="text" placeholder="Email Address...">
+                    </div>
+                </div>
+                <p class="hl-item__text3 mt-2">Choose a design</p>
+                <div class="give-a-gift__fourpart mb-3 px-1">
+                    <div class="row px-2">
+                        <div class="col-lg-3 col-md-6 px-1">
+                            <div class="give-a-gift__fourpart-part" style="background:url(images/gaf1.png) center center no-repeat; background-size: cover;">
+                                <div class="give-a-gift__fourpart-effect">
+                                    <div class="give-a-gift__fourpart-content text-center">
+                                        <span class="text-uppercase hl-item__text2">Congratulations</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 px-1">
+                            <div class="give-a-gift__fourpart-part" style="background:url(images/gaf2.png) center center no-repeat; background-size: cover;">
+                                <div class="give-a-gift__fourpart-effect">
+                                    <div class="give-a-gift__fourpart-content text-center">
+                                        <span class="text-uppercase hl-item__text2">Happy Holidays</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 px-1">
+                            <div class="give-a-gift__fourpart-part" style="background:url(images/gaf3.png) center center no-repeat; background-size: cover;">
+                                <div class="give-a-gift__fourpart-effect">
+                                    <div class="give-a-gift__fourpart-content text-center">
+                                        <span class="text-uppercase hl-item__text2">Happy Travels</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 px-1">
+                            <div class="give-a-gift__fourpart-part" style="background:url(images/gaf4.png) center center no-repeat; background-size: cover;">
+                                <div class="give-a-gift__fourpart-effect">
+                                    <div class="give-a-gift__fourpart-content text-center">
+                                        <span class="text-uppercase hl-item__text2">Thank You</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-xl-2">
+                        <p class="hl-item__text3">Select a gift amount</p>
+                    </div>
+                    <div class="col-xl-7 pb-3">
+                        <div class="row">
+                            <div class="col-md-2 mr-3">
+                                <label class="d-flex align-items-center filter-item">
+                                    <input class="d-none filter-item__checkbox" type="checkbox">
+                                    <div class="filter-item__status1"></div>
+                                    <span class="filter-item__text1 ml-3">$50</span>
+                                </label>
+                            </div>
+                            <div class="col-md-2 mr-3">
+                                <label class="d-flex align-items-center filter-item">
+                                    <input class="d-none filter-item__checkbox" type="checkbox">
+                                    <div class="filter-item__status1"></div>
+                                    <span class="filter-item__text1 ml-3">$100</span>
+                                </label>
+                            </div>
+                            <div class="col-md-2 mr-3">
+                                <label class="d-flex align-items-center filter-item">
+                                    <input class="d-none filter-item__checkbox" type="checkbox">
+                                    <div class="filter-item__status1"></div>
+                                    <span class="filter-item__text1 ml-3">$150</span>
+                                </label>
+                            </div>
+                            <div class="col-md-2 mr-3">
+                                <label class="d-flex align-items-center filter-item">
+                                    <input class="d-none filter-item__checkbox" type="checkbox">
+                                    <div class="filter-item__status1"></div>
+                                    <span class="filter-item__text1 ml-3">$200</span>
+                                </label>
+                            </div>
+                            <div class="col-md-2 mr-3">
+                                <label class="d-flex align-items-center filter-item">
+                                    <input class="d-none filter-item__checkbox" type="checkbox">
+                                    <div class="filter-item__status1"></div>
+                                    <span class="filter-item__text1 ml-3">$250</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 pt-1">
+                        <a href="" class="hl-item__link1">Or Enter Custom Amount</a>
+                    </div>
+                </div>
+
+                <div class="row mt-1">
+                    <div class="col-md-6 mb-3">
+                        <p class="hl-item__text3">Leave a note</p>
+                        <input class="form-control mb-3" type="text" placeholder="Who is this from...">
+                        <textarea name="" class="form-control" id="" style="height:120px;resize:none" placeholder="Write you message here..."></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="hl-item__text3">How will you send your gift</p>
+                        <div class="d-flex">
+                            <label class="d-flex align-items-center filter-item mr-5">
+                                <input class="d-none filter-item__checkbox" type="checkbox">
+                                <div class="filter-item__status1"></div>
+                                <span class="filter-item__text1 ml-2">Email</span>
+                            </label>
+                            <label class="d-flex align-items-center filter-item">
+                                <input class="d-none filter-item__checkbox" type="checkbox">
+                                <div class="filter-item__status1"></div>
+                                <span class="filter-item__text1 ml-2">Print</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="m-btn1 m-btn-green mt-4 mb-5">CONTINUE</button>
+                </div>
+            </div>
+        </section>
+        <!--End body-->
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')
+<!-- // -->
+@include('../components/modal-login.html')
+<!-- // -->
+@include('../components/modal-register.html')
+

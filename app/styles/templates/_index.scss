@@ -1,0 +1,41 @@
+.banner {
+    height: 515px;
+    &__form {
+        border-radius: 3px;
+        background: rgba(0, 0, 0, 0.6);
+        width: 835px;
+        height: 115px;
+        padding: 27px 27px;
+        position: relative;
+    }
+    &__input {
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        padding: 0 66px 0 22px;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__icon {
+        position: absolute;
+        top: 38%;
+        right: 5%;
+        &:hover {
+            transform: scale(1.3, 1.3) rotate(0);
+        }
+    }
+}
+.testmonial{
+    padding-bottom: 25px;
+    background: #f7f7f7;
+
+}
+
+@media (max-width: 767px) {
+    .banner{
+        &__icon{
+            right: 10%;
+        }
+    }
+}

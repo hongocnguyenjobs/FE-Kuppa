@@ -1,0 +1,28 @@
+.filter-item {
+    &__checkbox:checked+.filter-item__status {
+        border-color: #4ED08D;
+        background-color: #4ED08D;
+        background-image: url(../images/ic-checkbox.svg);
+        background-size: contain;
+        background-position: center center;
+    }
+    &__status {
+        width: 23px;
+        height: 23px;
+        border: 1px solid #E2E2E2;
+        border-radius: 2px;
+    }
+    &__status1 {
+        @extend .filter-item__status;
+        width: 33px;
+        height: 33px;
+    }
+    &__text1 {
+        font-size: 16px;
+    }
+    &__bg-dropdown {
+        padding-right: 30px !important;
+        background-image: url(../images/ic-dropdown.svg) !important;
+        background-repeat: no-repeat !important;
+    }
+}

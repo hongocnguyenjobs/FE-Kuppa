@@ -1,0 +1,65 @@
+@include('../partials//head.html')
+<div>
+    @include('../partials/header.html')
+    <main class="help">
+        <!--Begin banner-->
+        <section class="help__banner">
+            <div style="background:url(images/banner-help.jpg) center center no-repeat fixed; background-size: cover;">
+                <div class="hl-item__bg-effect250">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p class="hl-item__title1 my-5">Traveling Spoon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End banner-->
+
+        <!--Begin body-->
+        <section class="container">
+            <div class="help__threepart">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="help__threepart-part" style="background:url(images/p1.png) center center no-repeat; background-size: cover;">
+                            <div class="help__threepart-effect">
+                                <div class="help__threepart-content text-center">
+                                    <span class="text-uppercase hl-item__text2">General</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="help__threepart-part" style="background:url(images/p2.png) center center no-repeat; background-size: cover;">
+                            <div class="help__threepart-effect">
+                                <div class="help__threepart-content text-center">
+                                    <span class="text-uppercase hl-item__text2">Hosts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="help__threepart-part" style="background:url(images/p3.png) center center no-repeat; background-size: cover;">
+                            <div class="help__threepart-effect">
+                                <div class="help__threepart-content text-center">
+                                    <span class="text-uppercase hl-item__text2">Travelers</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-12 text-right mb-4 hl-item__text1">Community <a class="hl-item__link1" href="">browse</a></p>
+                </div>
+            </div>
+        </section>
+        <!--End body-->
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')
+<!-- // -->
+@include('../components/modal-login.html')
+<!-- // -->
+@include('../components/modal-register.html')
+
